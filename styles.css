@@ -23,6 +23,7 @@ body {
     border-radius: 10px;
     font-weight: bold;
     cursor: pointer;
+    width: 66px;
 }
 
 .btn:hover {
@@ -35,4 +36,5 @@ body {
     font-size: 20px;
     border: 2px solid black;
     border-radius: 5px;
+    width: 299px;
 }

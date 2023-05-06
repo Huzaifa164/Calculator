@@ -19,3 +19,11 @@ Array.from(buttons).forEach((button) => {
     }   
   });
 });
+
+input.addEventListener("keyup", (event) => {
+  if(event.key >= Number('0') && event.key <= Number('9')){
+    inputString = inputString + event.key;
+  } else if(event.key === 'Backspace') {
+    inputString = inputString.substring(0, inputString.length - 1);
+  }
+})
